@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "esm": "^3.2.25"
+    "esm": "^3.2.25",
+    "minimist": "1.2.0"
   },
   "scripts": {
     "sample1": "node -r esm index.js --file test/input/sample1.md",
