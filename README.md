@@ -1,7 +1,7 @@
 # Markdown to html
 
-## To run:
-
+## To run
+Make sure to install the deps with `yarn install`, then:
 ```
 npm run sample1
 npm run sample2
