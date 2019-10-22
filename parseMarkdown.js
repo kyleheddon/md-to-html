@@ -19,7 +19,7 @@ export function parseMarkdown(input) {
 		let lastLine = parsedLines[parsedLines.length - 1];
 		if (lastLine && lastLine.type === 'p') {
 			lastLine.content = lastLine.content.concat(
-				textNode(' '),
+				textNode('\n'),
 				parseInlineText(line)
 			);
 		} else {
