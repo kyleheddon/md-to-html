@@ -1,0 +1,14 @@
+{
+  "name": "markdown-to-html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "scripts": {
+    "sample1": "node -r esm index.js --file test/input/sample1.md",
+    "sample2": "node -r esm index.js --file test/input/sample2.md",
+    "hammer-test": "node -r esm index.js --file test/input/hammer-test.md"
+  }
+}
